@@ -15,6 +15,20 @@
     <![endif]-->
   </head>
   <body style="zoom:125%;">
+    <div class="top-navigation">
+  <nav role="navigation">
+      <ul id="selector"> <b>
+          {% for link in site.data.navigation %}
+          {% if link.url contains 'http' %}
+              {% assign domain = '' %}
+              {% else %}
+              {% assign domain = site.github.url %}
+          {% endif %}
+          <li id = "navbutton"><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
+      {% endfor %}
+      </b></ul>
+  </nav>
+</div><!-- /.top-navigation -->
     <div class="wrapper">
       <header>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
