@@ -4,16 +4,16 @@
   url: /index
 
 - title: "Publications"
-  url: /blog/blogs
+  url: /Publications/publications
 
 - title: "Teaching"
-  url: /RandomRamblings/randomramblings
+  url: /Teaching/teaching
 
 - title: "Projects"
-  url: /featuredposts/fp
+  url: /Projects/projects
   
 - title: "Blog"
-  url: /featuredposts/fp
+  url: /blog/blogs
   
 - title: "CV"
-  url: /featuredposts/fp
+  url: /assets/CV
