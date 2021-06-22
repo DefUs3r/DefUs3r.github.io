@@ -1,12 +1,19 @@
 # Site navigation links
-- title: "Home"
+# TODO : Correct Links of all files
+- title: "Soumyasis Gun"
   url: /index
 
-- title: "Blog"
+- title: "Publications"
   url: /blog/blogs
 
-- title: "Random Ramblings"
+- title: "Teaching"
   url: /RandomRamblings/randomramblings
 
-- title: "featured posts"
+- title: "Projects"
+  url: /featuredposts/fp
+  
+- title: "Blog"
+  url: /featuredposts/fp
+  
+- title: "CV"
   url: /featuredposts/fp
